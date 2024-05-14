@@ -1,0 +1,86 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 50px 150px;
+    max-width: 1230px;
+}
+
+.contact-form__heading  h2 {
+    text-align: center;
+    color: rgb(180, 141, 90);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form__group {
+    margin: 0;
+    flex-direction: row;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    
+
+}
+
+
+.form__group-title,
+.form__group-content
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.form__label--item,
+.form__label--required {
+    margin-right: 5px;
+    /* 要素間の間隔 */
+}
+
+.form__label--required {
+    color: red;
+}
+
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    border: none;
+    background-color: beige;
+
+}
+
+
+.form__input--text {
+    margin-right: 30px;
+    /* 姓と名の間のスペース */
+}
+
+.detail {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form__button {
+    text-align: center;
+}
+
+
+.form__button-submit {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    width: 10%;
+    font-size: 15px;
+}
+
